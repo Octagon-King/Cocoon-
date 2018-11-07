@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newsletter"
+            android:icon="@drawable/ic_newsletter"
+            android:title="Newsletter" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_events"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_ibiza"
+            android:icon="@drawable/ic_ibiza"
+            android:title="Ibiza" />
+        <item
+            android:id="@+id/nav_sven"
+            android:icon="@drawable/ic_sven"
+            android:title="Sven Väth" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shop"
+            android:title="Shop" />
+
+        <item
+            android:id="@+id/nav_dj_app"
+            android:icon="@drawable/ic_dj_app"
+            android:title="DJ App" />
+        <item
+            android:id="@+id/nav_flash"
+            android:icon="@drawable/ic_flash"
+            android:title="Flash Artist" />
+
+    </group>
+
+    <item android:title="Social Media">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_twitter"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/ic_youtube"
+                android:title="Youtube" />
+
+        </menu>
+    </item>
+
+</menu>
