@@ -3,6 +3,10 @@ package net.cocoon.cocoon;
 
 
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,7 +19,6 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,12 +75,36 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FlashFragment()).commit();
                 break;
+            case R.id.nav_facebook:
+                Intent facebookIntent = new Intent(Intent.ACTION_VIEW);
+                String facebookUrl = getFacebookPageURL(this);
+                facebookIntent.setData(Uri.parse(facebookUrl));
+                startActivity(facebookIntent);
 
         }
 
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public static String FACEBOOK_URL = "https://www.facebook.com/COCOON.OFFICIAL/";
+    public static String FACEBOOK_PAGE_ID = "Cocoon";
+
+    public String getFacebookPageURL(Context context) {
+        PackageManager packageManager = context.getPackageManager();
+        try {
+            int versionCode = packageManager.getPackageInfo("com.facebook.katana", 0).versionCode;
+            if (versionCode >= 3002850) {
+                return "fb://facewebmodal/f?href=" + FACEBOOK_URL;
+            } else {
+                return "fb://page/" + FACEBOOK_PAGE_ID;
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            return FACEBOOK_URL;
+        }
+
+    }
+
 
     @Override
     public void onBackPressed() {
