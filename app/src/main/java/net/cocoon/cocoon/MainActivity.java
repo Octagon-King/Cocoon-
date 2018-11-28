@@ -3,6 +3,7 @@ package net.cocoon.cocoon;
 
 
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -80,12 +81,30 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 String facebookUrl = getFacebookPageURL(this);
                 facebookIntent.setData(Uri.parse(facebookUrl));
                 startActivity(facebookIntent);
+                break;
+            case R.id.nav_instagram:
+                Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.instagram.android");
+                if (launchIntent != null)
+                {
+                    try {
+                        startActivity(launchIntent);
+                    }
+                    catch (ActivityNotFoundException ex)
+                    {
+                        ex.printStackTrace();
+                    }
+                }
+
+
 
         }
 
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
 
     public static String FACEBOOK_URL = "https://www.facebook.com/COCOON.OFFICIAL/";
     public static String FACEBOOK_PAGE_ID = "Cocoon";
@@ -104,6 +123,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
+
+
 
 
     @Override
