@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
     public static String FACEBOOK_URL = "https://www.facebook.com/COCOON.OFFICIAL/";
-    public static String FACEBOOK_PAGE_ID = "Cocoon";
+    public static String FACEBOOK_PAGE_ID = "132954121040";
 
     public String getFacebookPageURL(Context context) {
         PackageManager packageManager = context.getPackageManager();
