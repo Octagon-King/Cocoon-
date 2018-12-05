@@ -40,18 +40,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new NewsletterFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_newsletter);
+                    new EventsFragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_events);
         }
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.nav_newsletter:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new NewsletterFragment()).commit();
-                break;
             case R.id.nav_events:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new EventsFragment()).commit();
@@ -72,10 +68,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new DjAppFragment()).commit();
                 break;
-            case R.id.nav_flash:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new FlashFragment()).commit();
-                break;
             case R.id.nav_facebook:
                 Intent facebookIntent = new Intent(Intent.ACTION_VIEW);
                 String facebookUrl = getFacebookPageURL(this);
@@ -83,21 +75,40 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(facebookIntent);
                 break;
             case R.id.nav_instagram:
-                Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.instagram.android");
-                if (launchIntent != null)
-                {
-                    try {
-                        startActivity(launchIntent);
-                    }
-                    catch (ActivityNotFoundException ex)
-                    {
-                        ex.printStackTrace();
-                    }
+             Uri uri = Uri.parse("http://instagram.com/_u/cocoon_official");
+             Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
+             likeIng.setPackage("com.instagram.android");
+
+             try {
+                 startActivity(likeIng);
+             } catch (ActivityNotFoundException e){
+                 startActivity(new Intent(Intent.ACTION_VIEW,
+                         Uri.parse("http://instagram.com/cocoon_official")));
+             }
+             break;
+
+            case R.id.nav_twitter:
+                Intent intent = null;
+                try {
+                    this.getPackageManager().getPackageInfo("com.twitter.android", 0);
+                    intent = new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("twitter://user?user_id=323222280"));
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                } catch (Exception e) {
+                    intent = new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("http://twitter.com/cocoon_official/"));
                 }
+                this.startActivity(intent);
+                break;
 
-
-
+            case R.id.nav_youtube:
+                Intent intenty = new Intent(Intent.ACTION_VIEW);
+                intenty.setData(Uri.parse("http://www.youtube.com/user/cocoonrecordings"));
+                startActivity(intenty);
+                break;
         }
+
+
 
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -123,7 +134,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
-
 
 
 
