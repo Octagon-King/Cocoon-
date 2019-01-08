@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/event_bg">
 
@@ -18,10 +18,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
-        android:background="#50000000"
+        android:background="#50d6d6d6"
         android:layout_marginTop="12dp"
-        android:textSize="30dp"
-        android:text="Cocoon PHUKET" />
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="Cocoon PHUKET"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_flash"
+        android:drawableRight="@drawable/ic_arrow_point_to_right"/>
 
     <Button
         android:id="@+id/button2"
@@ -31,9 +35,13 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="64dp"
-        android:background="#50000000"
+        android:background="#50d6d6d6"
         android:text="Cocoon Barcelona"
-        android:textSize="30dp" />
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_flash"
+        android:drawableRight="@drawable/ic_arrow_point_to_right"/>
 
     <Button
         android:id="@+id/button3"
@@ -43,8 +51,14 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="116dp"
-        android:background="#50000000"
+        android:background="#50d6d6d6"
+        android:textColor="#ffffff"
         android:text="Cocoon New York"
-        android:textSize="30dp" />
+        android:gravity="left|center_vertical"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_flash"
+        android:drawableRight="@drawable/ic_arrow_point_to_right"/>
+
+
 
 </RelativeLayout>
