@@ -4,6 +4,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/event_bg">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="135dp"
+        android:src="@drawable/cocoon_logo"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,52 +18,52 @@
         android:textSize="30sp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPhuket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="63dp"
         android:background="#50d6d6d6"
-        android:layout_marginTop="12dp"
-        android:textSize="25dp"
-        android:textColor="#ffffff"
-        android:text="Cocoon PHUKET"
-        android:gravity="left|center_vertical"
         android:drawableLeft="@drawable/ic_flash"
-        android:drawableRight="@drawable/ic_arrow_point_to_right"/>
+        android:drawableRight="@drawable/ic_arrow_point_to_right"
+        android:gravity="left|center_vertical"
+        android:text="Cocoon PHUKET"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonBarcelona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
+        android:layout_alignStart="@+id/buttonPhuket"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="118dp"
         android:background="#50d6d6d6"
+        android:drawableLeft="@drawable/ic_flash"
+        android:drawableRight="@drawable/ic_arrow_point_to_right"
+        android:gravity="left|center_vertical"
         android:text="Cocoon Barcelona"
         android:textColor="#ffffff"
-        android:textSize="25dp"
-        android:gravity="left|center_vertical"
-        android:drawableLeft="@drawable/ic_flash"
-        android:drawableRight="@drawable/ic_arrow_point_to_right"/>
+        android:textSize="25dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonNewyork"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
+        android:layout_alignStart="@+id/buttonBarcelona"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="174dp"
         android:background="#50d6d6d6"
-        android:textColor="#ffffff"
-        android:text="Cocoon New York"
-        android:gravity="left|center_vertical"
-        android:textSize="25dp"
         android:drawableLeft="@drawable/ic_flash"
-        android:drawableRight="@drawable/ic_arrow_point_to_right"/>
+        android:drawableRight="@drawable/ic_arrow_point_to_right"
+        android:gravity="left|center_vertical"
+        android:text="Cocoon New York"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
 
 
 
