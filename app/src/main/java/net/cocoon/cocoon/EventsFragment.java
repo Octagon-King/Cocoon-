@@ -18,9 +18,8 @@ public class EventsFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_events, container, false);
         Button btnFragment0 = (Button) view.findViewById(R.id.buttonBeirut);
-        Button btnFragment1 = (Button) view.findViewById(R.id.buttonPhuket);
         Button btnFragment2 = (Button) view.findViewById(R.id.buttonBarcelona);
-        Button btnFragment3 = (Button) view.findViewById(R.id.buttonNewyork);
+        Button btnFragment3 = (Button) view.findViewById(R.id.buttonNewYork);
         Button btnFragment4 = (Button) view.findViewById(R.id.buttonLondon);
         Button btnFragment5 = (Button) view.findViewById(R.id.buttonMadrid);
         Button btnFragment6 = (Button) view.findViewById(R.id.buttonAugsburg);
@@ -30,11 +29,12 @@ public class EventsFragment extends Fragment implements View.OnClickListener {
         Button btnFragment10 = (Button) view.findViewById(R.id.buttonPrague);
         Button btnFragment11 = (Button) view.findViewById(R.id.buttonCocoonInThePark);
         Button btnFragment12 = (Button) view.findViewById(R.id.buttonMiami);
+        Button btnFragment13 = (Button) view.findViewById(R.id.buttonBudapest);
+        Button btnFragment14 = (Button) view.findViewById(R.id.buttonAmman);
 
 
 
         btnFragment0.setOnClickListener(this);
-        btnFragment1.setOnClickListener(this);
         btnFragment2.setOnClickListener(this);
         btnFragment3.setOnClickListener(this);
         btnFragment4.setOnClickListener(this);
@@ -46,6 +46,9 @@ public class EventsFragment extends Fragment implements View.OnClickListener {
         btnFragment10.setOnClickListener(this);
         btnFragment11.setOnClickListener(this);
         btnFragment12.setOnClickListener(this);
+        btnFragment13.setOnClickListener(this);
+        btnFragment14.setOnClickListener(this);
+
 
         return view;
     }
@@ -55,17 +58,12 @@ public class EventsFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         Fragment fragment = null;
         switch (view.getId()) {
-            case R.id.buttonPhuket:
-                fragment = new EventPhuketFragment();
-                replaceFragment(fragment);
-                break;
-
             case R.id.buttonBarcelona:
                 fragment = new EventBarcelonaFragment();
                 replaceFragment(fragment);
                 break;
 
-            case R.id.buttonNewyork:
+            case R.id.buttonNewYork:
                 fragment = new EventNewyorkFragment();
                 replaceFragment(fragment);
                 break;
@@ -117,6 +115,16 @@ public class EventsFragment extends Fragment implements View.OnClickListener {
 
             case R.id.buttonBeirut:
                 fragment = new EventBeirutFragment();
+                replaceFragment(fragment);
+                break;
+
+            case R.id.buttonBudapest:
+                fragment = new EventBudapestFragment();
+                replaceFragment(fragment);
+                break;
+
+            case R.id.buttonAmman:
+                fragment = new EventAmmanFragment();
                 replaceFragment(fragment);
                 break;
 

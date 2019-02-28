@@ -3,170 +3,442 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background_home">
+    android:background="@drawable/gradient_background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="140dp"
-        android:src="@drawable/cocoon_logo"/>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="142dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:src="@drawable/sven" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:text="It started in 1982"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:text="Artists"
+        android:fontFamily="@font/coversans_black"
         android:textColor="#ffffff"
-        android:textSize="30sp" />
+        android:textSize="40dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:gravity="bottom"
-        android:text="Sven Väth is quite simply unique. a legend in his own commitment and passion that has influenced the advance and evaluation of electronics music. Clubs, record labels and careers have been launched."
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:gravity="bottom"
-        android:text="There are some people that are destined to emerge and change things. Change landscapes. Sven Väth is a risk taking visionary, an instigator, an innovator and very possible invincible."
-        android:textColor="#ffffff" />
+        <!--Andre Galluzzi-->
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="220dp"
+            android:layout_height="340dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="5dp"
-            android:src="@drawable/sven_2" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:gravity="bottom"
-        android:text="1981 and Frankfurt it started. Quickly the figurehead for a techno revolution in Germany that was to spread far and wide. Worldwide. Setting sail alone, this was 1981 and this was new. The Omen Club and so many other adventure punctuated this period, getting the sound out there. Vinyl then, vinyl now. Parties that mattered and changed things. Parties that reinforced a vision and eventually gave birth to Cocoon. "
-        android:textColor="#ffffff" />
+            android:src="@drawable/andre_galluzzi" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="andré galluzzi"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="An extraordinary residency in one of the best clubs in the world was unleashed in 1999, Cocoon Ibiza, Amnesia on a Monday night. Now 16 years of parties that have set new standards in production and have never compromised on what matters. The music an incredible risk became, and still is one of the great successes in modern music and clubbing. A phenomenon now attracting upwards of 80,000 visitors in a 4 month season with Sven Väth front and center throughout."
-            android:textColor="#ffffff" />
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Instagram"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Resident Advisor"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="soundcloud"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
+
+
+
+        <!--Dana Ruh-->
+
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="220dp"
+            android:layout_height="340dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginRight="5dp"
-            android:src="@drawable/sven_2" />
+            android:src="@drawable/dana_ruh" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="Along with Cocoon Ibiza Sven created a booking agency (now Flash Artist Booking targeting the best and the brightest), an event agency (Cocoon Event - spreading the vision across 5 continents and now over 30 countries) and record label (Cocoon Recordings - with a back catalogue stuffed with quality) that gets ever more important and keeps on growing."
-            android:textColor="#ffffff" />
-
-
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="dana ruh"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="For all that you have just to meet the man behind the decks to really get it. With vinyl flailing he picks up a crowd and takes them with him. At a Sven gig you are in a performance with no one knowing quite what is going to happen. it has always been so there may be 120 gigs a year, some very big some more intimate, but you will always feel invited and you will always see the heart of a man. That heart belongs to the crowd. Everyone is a VIP. Sven Väth is rock and roll."
-            android:textColor="#ffffff"/>
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Instagram"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Resident Advisor"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="soundcloud"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
+
+        <!--Dorian Paic-->
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="220dp"
+            android:layout_height="340dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginRight="5dp"
-            android:src="@drawable/sven_3" />
+            android:src="@drawable/dorian" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="In October 2014 there was a happening that expressed this togetherness and mutual respect. It was a 50th birthday party in stunning surroundings where 12,000 people joined together in Mannheim to celebrate a monumental life and career. An unforgetable night of dancing and community."
-            android:textColor="#ffffff"/>
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="Dorian Paic"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="In 2015 another very special moment as Sven was honoured by the City of Frankfurt with the (Goetheplakette) issued only to those that have made a real contribution to the cultural life of the city. A formal occassion but one that was important because it acknowledged at a different level the positivity that dance music can bring. A force for good. There was an after party of course, is Sven after all...."
-            android:textColor="#ffffff"/>
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="Some fascinating collaboration have emerged as Sven has continued to explore another passion, contemporary art. Intriguing link ups with such influential figures as Tobias Rehberger and Andreas Gursky, both long term friends, are sure to throw up more surprises in the next months and years."
-            android:textColor="#ffffff"/>
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Resident Advisor"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
+
+
+        <!--Fabe-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/fabe" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="2016 and that means an astonishing 35 years as a Dj and an equally astonishing 17th season of Cocoon Ibiza."
-            android:textColor="#ffffff"/>
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="Fabe"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:gravity="bottom"
-            android:text="The most charismatic DJ of his generation is more vital and relevant than ever. Utterly professional, utterly unpredictable. No one else like him. Not even closel"
-            android:textColor="#ffffff"/>
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Instagram"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Resident Advisor"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="soundcloud"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
 
 
+        <!--Greogor Tresher-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/gregor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="Gregor Tresher"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Instagram"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Resident Advisor"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="soundcloud"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
+
+        <!--Ilario-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ilario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="Ilario Alicante"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Instagram"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Resident Advisor"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="soundcloud"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
+
+        <!--Sven-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/sven_vath" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="Sven väth"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="130dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Instagram"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155dp"
+            android:fontFamily="@font/coversans_regular"
+            android:text="Dates"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/book_white"
+            android:layout_marginStart="80dp"/>
 
 
     </LinearLayout>

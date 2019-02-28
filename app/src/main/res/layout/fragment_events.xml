@@ -1,218 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/event_bg">
+    android:background="@drawable/event">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <Button
+            android:id="@+id/buttonAmman"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/btnamman"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
 
 
-    <ImageView
-        android:contentDescription="@string/desc"
-        android:layout_width="100dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="135dp"
-        android:src="@drawable/cocoon_logo"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text=""
-        android:textSize="30sp"/>
-
-    <Button
-        android:id="@+id/buttonBeirut"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="118dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Beirut "
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonPhuket"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="64dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon PHUKET"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonBarcelona"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="228dp"
-        android:background="#50d6d6d6"
-
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Barcelona"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonNewyork"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="338dp"
-        android:background="#50d6d6d6"
-
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon New York"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
+        <Button
+            android:id="@+id/buttonBudapest"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btnbudapest"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonBeirut"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/btnbeirut"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonLondon"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/btnlondon"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonBarcelona"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="800dp"
+            android:background="@drawable/btnbarcalona"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonMiami"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1000dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonNewYork"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1200dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
         <Button
             android:id="@+id/buttonMadrid"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="393dp"
-            android:background="#50d6d6d6"
-            android:drawableEnd="@drawable/ic_arrow_point_to_right"
-
+            android:layout_marginTop="1400dp"
+            android:background="@drawable/btnmadrid"
             android:gravity="start|center_vertical"
-            android:text="Cocoon Madrid"
-            android:textColor="#ffffff"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonAugsburg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1600dp"
+            android:background="@drawable/btnausburg"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonMdrnty"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1800dp"
+            android:background="@drawable/btnmdrnty"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonCordoba"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2000dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonMontevideo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2200dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonPrague"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2400dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
             android:textSize="27sp" />
 
-    <Button
-        android:id="@+id/buttonLondon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="173dp"
-        android:background="#50d6d6d6"
-
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon London"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonMiami"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="283dp"
-        android:background="#50d6d6d6"
-
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Miami"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-
-    <Button
-        android:id="@+id/buttonAugsburg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="448dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Augsburg"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonMdrnty"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="503dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Mdrnty"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonCordoba"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="558dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Cordoba"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonMontevideo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="613dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Montevideo"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonPrague"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="667dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon Prague"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
-
-    <Button
-        android:id="@+id/buttonCocoonInThePark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="722dp"
-        android:background="#50d6d6d6"
-        android:drawableEnd="@drawable/ic_arrow_point_to_right"
-        android:gravity="start|center_vertical"
-        android:text="Cocoon in the park 2019"
-        android:textColor="#ffffff"
-        android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonCocoonInThePark"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2600dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
 
     </RelativeLayout>
 

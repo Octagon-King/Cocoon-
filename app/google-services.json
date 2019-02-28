@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "107306624807",
+    "firebase_url": "https://cocoon-a760d.firebaseio.com",
+    "project_id": "cocoon-a760d",
+    "storage_bucket": "cocoon-a760d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107306624807:android:f2615fd7343f4160",
+        "android_client_info": {
+          "package_name": "net.cocoon.cocoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107306624807-c0v4eanvh1r1h6nvdi470khucduj0rbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.cocoon.cocoon",
+            "certificate_hash": "340720affecbd37cdc6bb3568d12e07a83e89ddc"
+          }
+        },
+        {
+          "client_id": "107306624807-v0ltatgjoefcip8g6mbfik112d2o3061.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNhVfPKUlxQN8hzoOGOaGZGJLR4APjgcg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107306624807-v0ltatgjoefcip8g6mbfik112d2o3061.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
