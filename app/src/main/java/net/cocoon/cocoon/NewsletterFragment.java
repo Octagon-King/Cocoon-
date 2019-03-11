@@ -57,6 +57,22 @@ public class NewsletterFragment extends Fragment {
                         ViewHolder.class,
                         mRef
                 ) {
+            @NonNull
+            @Override
+            public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+
+                View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.row, viewGroup, false);
+
+                ViewHolder viewHolder = new ViewHolder(view);
+
+                return viewHolder;
+            }
+
+            @Override
+            protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull Model model) {
+
+            }
+
             @Override
             protected void populateViewHolder(ViewHolder viewHolder, Model model, final int position) {
 
