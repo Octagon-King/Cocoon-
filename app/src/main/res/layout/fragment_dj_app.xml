@@ -4,9 +4,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background_home">
 
-    <ImageView
-        android:layout_width="380dp"
-        android:layout_height="510dp"
-        android:src="@drawable/nv11" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming Soon"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/coversans_regular"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="60dp"/>
 
 </RelativeLayout>

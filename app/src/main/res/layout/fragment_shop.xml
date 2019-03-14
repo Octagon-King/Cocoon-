@@ -4,11 +4,22 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_purple">
 
-    <TextView
+    <Button
+        android:id="@+id/btnAmazon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Shop"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="540dp"
+        android:text="Amazon"
         android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnBand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="600dp"
+        android:text="Bandcamp"
+        android:textSize="30sp" />
 
 </RelativeLayout>
