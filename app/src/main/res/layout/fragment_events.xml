@@ -9,51 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/buttonAmman"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/btnamman"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
 
 
-        <Button
-            android:id="@+id/buttonBudapest"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="200dp"
-            android:background="@drawable/btnbudapest"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonBeirut"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="400dp"
-            android:background="@drawable/btnbeirut"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonLondon"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="600dp"
-            android:background="@drawable/btnlondon"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
+
+
         <Button
             android:id="@+id/buttonBarcelona"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="800dp"
+            android:layout_marginTop="0dp"
             android:background="@drawable/btnbarcalona"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -62,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="1000dp"
+            android:layout_marginTop="200dp"
             android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -71,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="1200dp"
+            android:layout_marginTop="400dp"
             android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -80,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="1400dp"
+            android:layout_marginTop="600dp"
             android:background="@drawable/btnmadrid"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -89,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="1600dp"
+            android:layout_marginTop="800dp"
             android:background="@drawable/btnausburg"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -98,8 +63,26 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="1800dp"
+            android:layout_marginTop="1000dp"
             android:background="@drawable/btnmdrnty"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonRiccione"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1200dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonLisbon"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1400dp"
+            android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
         <Button
@@ -107,7 +90,16 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="2000dp"
+            android:layout_marginTop="1600dp"
+            android:background="@drawable/btncocooninthepark"
+            android:gravity="start|center_vertical"
+            android:textSize="27sp" />
+        <Button
+            android:id="@+id/buttonCanelones"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1800dp"
             android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -116,7 +108,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="2200dp"
+            android:layout_marginTop="2000dp"
             android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -125,7 +117,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="2400dp"
+            android:layout_marginTop="2200dp"
             android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
@@ -136,7 +128,7 @@
             android:layout_height="200dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="2600dp"
+            android:layout_marginTop="2400dp"
             android:background="@drawable/btncocooninthepark"
             android:gravity="start|center_vertical"
             android:textSize="27sp" />
