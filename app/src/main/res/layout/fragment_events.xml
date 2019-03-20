@@ -1,140 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/event">
+    tools:context=".EventsFragment"
+    android:orientation="vertical">
 
-    <RelativeLayout
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/eventsRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+    </android.support.v7.widget.RecyclerView>
 
 
-
-
-        <Button
-            android:id="@+id/buttonBarcelona"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="0dp"
-            android:background="@drawable/btnbarcalona"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonMiami"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="200dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonNewYork"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="400dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonMadrid"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="600dp"
-            android:background="@drawable/btnmadrid"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonAugsburg"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="800dp"
-            android:background="@drawable/btnausburg"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonMdrnty"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="1000dp"
-            android:background="@drawable/btnmdrnty"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonRiccione"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="1200dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonLisbon"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="1400dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonCordoba"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="1600dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonCanelones"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="1800dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonMontevideo"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="2000dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-        <Button
-            android:id="@+id/buttonPrague"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="2200dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-
-        <Button
-            android:id="@+id/buttonCocoonInThePark"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2400dp"
-            android:background="@drawable/btncocooninthepark"
-            android:gravity="start|center_vertical"
-            android:textSize="27sp" />
-
-    </RelativeLayout>
-
-
-
-</ScrollView>
+</LinearLayout>

@@ -34,7 +34,7 @@ public class NewsletterFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_newsletter, container, false);
-        getActivity().setTitle("NewsFeed");
+        getActivity().setTitle("Cocoon");
 
         mRecyclerView = (RecyclerView)view.findViewById(R.id.recyclerView);
 
