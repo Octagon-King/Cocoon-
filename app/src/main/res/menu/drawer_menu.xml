@@ -9,13 +9,13 @@
             android:icon="@drawable/ic_newsletter"
             android:title="Newsletter" />
         <item
-            android:id="@+id/nav_events"
-            android:icon="@drawable/ic_events"
-            android:title="Events" />
-        <item
             android:id="@+id/nav_ibiza"
             android:icon="@drawable/ic_ibiza"
             android:title="Ibiza" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_events"
+            android:title="Events" />
         <item
             android:id="@+id/nav_sven"
             android:icon="@drawable/ic_sven"

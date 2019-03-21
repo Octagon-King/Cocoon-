@@ -17,10 +17,10 @@
         <ImageView
             android:id="@+id/rImageView"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:scaleType="centerCrop"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
             android:adjustViewBounds="true"
-            android:background="@drawable/loading_screen"/>
+            android:background="@drawable/loading"/>
 
         <TextView
             android:id="@+id/rDescriptionTv"

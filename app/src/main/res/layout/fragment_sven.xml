@@ -40,44 +40,8 @@
             android:textColor="#ffffff"
             android:textSize="30sp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Instagram"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Resident Advisor"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="115dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="soundcloud"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnAndre"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"
@@ -105,45 +69,8 @@
             android:text="dana ruh"
             android:textColor="#ffffff"
             android:textSize="30sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Instagram"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Resident Advisor"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="115dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="soundcloud"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnDana"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"
@@ -168,28 +95,8 @@
             android:text="Dorian Paic"
             android:textColor="#ffffff"
             android:textSize="30sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Resident Advisor"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnDorian"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"
@@ -215,45 +122,8 @@
             android:text="Fabe"
             android:textColor="#ffffff"
             android:textSize="30sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Instagram"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Resident Advisor"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="115dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="soundcloud"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnFabe"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"
@@ -279,45 +149,8 @@
             android:text="Gregor Tresher"
             android:textColor="#ffffff"
             android:textSize="30sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Instagram"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Resident Advisor"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="115dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="soundcloud"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnGregor"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"
@@ -342,45 +175,8 @@
             android:text="Ilario Alicante"
             android:textColor="#ffffff"
             android:textSize="30sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Instagram"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Resident Advisor"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="115dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="soundcloud"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnIlario"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"
@@ -405,36 +201,8 @@
             android:text="Sven väth"
             android:textColor="#ffffff"
             android:textSize="30sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="130dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="FaceBook"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Instagram"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="155dp"
-            android:fontFamily="@font/coversans_regular"
-            android:text="Dates"
-            android:textColor="#ffffff"
-            android:textSize="20sp"/>
-
         <Button
+            android:id="@+id/btnSven"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:background="@drawable/book_white"

@@ -81,7 +81,7 @@ public class EventsFragment extends Fragment {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/pg/COCOON.OFFICIAL/events/?ref=page_internal"));
                         startActivity(browserIntent);
                     }
                 });
