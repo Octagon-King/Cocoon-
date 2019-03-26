@@ -17,6 +17,7 @@
             android:icon="@drawable/ic_events"
             android:title="Events" />
         <item
+
             android:id="@+id/nav_sven"
             android:icon="@drawable/ic_sven"
             android:title="Artists" />
