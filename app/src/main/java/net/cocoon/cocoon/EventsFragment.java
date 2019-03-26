@@ -75,13 +75,13 @@ public class EventsFragment extends Fragment {
             }
 
             @Override
-            protected void onBindViewHolder(@NonNull EventViewHolder holder, int position, @NonNull EventModel model) {
-                holder.setDetails(getContext(), model.getImage());
+            protected void onBindViewHolder(@NonNull EventViewHolder holder, int position, @NonNull final EventModel model) {
+                holder.setDetails(getContext(), model.getImage(), model.getEventUrl());
 
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("model.getEventUrl"));
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(model.getEventUrl()));
                         startActivity(browserIntent);
                     }
                 });

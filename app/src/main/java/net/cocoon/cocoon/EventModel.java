@@ -3,7 +3,7 @@ package net.cocoon.cocoon;
 public class EventModel {
 
    String image;
-   String EventUrl;
+   String eventurl;
 
    //constructor
 
@@ -13,8 +13,9 @@ public class EventModel {
 
     public void setImage(String image) { this.image = image; }
 
-    public String getEventUrl() {return EventUrl;}
+    public String getEventUrl() {return eventurl;}
 
-    public void setEventUrl() {this.EventUrl = EventUrl; }
+    public void setEventUrl(String eventurl)
+    {this.eventurl = eventurl; }
 
 }
