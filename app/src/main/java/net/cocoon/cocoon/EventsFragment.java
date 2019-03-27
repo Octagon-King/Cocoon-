@@ -76,7 +76,7 @@ public class EventsFragment extends Fragment {
 
             @Override
             protected void onBindViewHolder(@NonNull EventViewHolder holder, int position, @NonNull final EventModel model) {
-                holder.setDetails(getContext(), model.getImage(), model.getEventUrl());
+                holder.setDetails(getContext(), model.getImage());
 
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override

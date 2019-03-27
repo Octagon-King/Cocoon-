@@ -21,7 +21,9 @@ public class EventViewHolder extends RecyclerView.ViewHolder {
         //Views
         ImageView mImageTv = mView.findViewById(R.id.eImageView);
         //set data to view
-        Picasso.get().load(image).into(mImageTv);
+        if(image != null && !image.isEmpty() ){
+            Picasso.get().load(image).into(mImageTv);
+        }
 
     }
 
