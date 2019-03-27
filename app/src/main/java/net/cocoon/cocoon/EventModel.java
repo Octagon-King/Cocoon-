@@ -2,8 +2,7 @@ package net.cocoon.cocoon;
 
 public class EventModel {
 
-   String image;
-   String eventurl;
+   String image, eventurl;
 
    //constructor
 
