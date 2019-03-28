@@ -70,13 +70,13 @@ public class IbizaFragment extends Fragment {
             }
 
             @Override
-            protected void onBindViewHolder(@NonNull IbizaViewHolder holder, int position, @NonNull IbizaModel model) {
+            protected void onBindViewHolder(@NonNull IbizaViewHolder holder, int position, @NonNull final IbizaModel model) {
                 holder.setDetails(getContext(), model.getImage());
 
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/pg/COCOON.OFFICIAL/events/?ref=page_internal"));
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(model.getIbizaurl()));
                         startActivity(browserIntent);
                     }
                 });
