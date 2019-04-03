@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background">
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="100dp"
-        android:text="Artists"
-        android:fontFamily="@font/coversans_black"
-        android:textColor="#ffffff"
-        android:textSize="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coversans_black"
+            android:text="Artists"
+            android:textColor="#ffffff"
+            android:textSize="40dp" />
+
 
         <!--Andre Galluzzi-->
+
 
         <ImageView
             android:layout_width="wrap_content"
@@ -33,21 +36,44 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
             android:layout_marginTop="20dp"
-            android:layout_marginStart="50dp"
             android:fontFamily="@font/coversans_black"
             android:text="andré galluzzi"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/andrefb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/andrefb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/andreig"
+            android:layout_marginStart="117dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/andresc"
+            android:layout_marginStart="110dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
 
         <Button
             android:id="@+id/btnAndre"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
-
-
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
         <!--Dana Ruh-->
 
@@ -68,13 +94,38 @@
             android:fontFamily="@font/coversans_black"
             android:text="dana ruh"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/danafb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/danaig"
+            android:layout_marginStart="117dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/danasc"
+            android:layout_marginStart="110dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
         <Button
             android:id="@+id/btnDana"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
         <!--Dorian Paic-->
 
@@ -94,13 +145,23 @@
             android:fontFamily="@font/coversans_black"
             android:text="Dorian Paic"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dorianfb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+
         <Button
             android:id="@+id/btnDorian"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
 
         <!--Fabe-->
@@ -121,13 +182,38 @@
             android:fontFamily="@font/coversans_black"
             android:text="Fabe"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fabefb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fabeig"
+            android:layout_marginStart="117dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fabesc"
+            android:layout_marginStart="110dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
         <Button
             android:id="@+id/btnFabe"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
 
         <!--Greogor Tresher-->
@@ -148,13 +234,38 @@
             android:fontFamily="@font/coversans_black"
             android:text="Gregor Tresher"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gregfb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gregig"
+            android:layout_marginStart="117dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gregsc"
+            android:layout_marginStart="110dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
         <Button
             android:id="@+id/btnGregor"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
         <!--Ilario-->
 
@@ -174,13 +285,38 @@
             android:fontFamily="@font/coversans_black"
             android:text="Ilario Alicante"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ilariofb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ilarioig"
+            android:layout_marginStart="117dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ilariosc"
+            android:layout_marginStart="110dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
         <Button
             android:id="@+id/btnIlario"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
         <!--Sven-->
 
@@ -200,13 +336,37 @@
             android:fontFamily="@font/coversans_black"
             android:text="Sven väth"
             android:textColor="#ffffff"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/svenfb"
+            android:layout_marginStart="123dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/svenig"
+            android:layout_marginStart="117dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/svendt"
+            android:layout_marginStart="145dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
         <Button
             android:id="@+id/btnSven"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:background="@drawable/book_white"
-            android:layout_marginStart="80dp"/>
+            android:layout_marginStart="80dp"
+            android:background="@drawable/book_white" />
 
 
     </LinearLayout>

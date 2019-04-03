@@ -9,6 +9,87 @@
     <string name="action_settings">Settings</string>
     <string name="desc">Image</string>
 
+    <!--Andre Galluze-->
+
+    <string name="andrefb">
+        <a href="https://www.facebook.com/AndreGalluzzi.official/">FACEBOOK</a>
+    </string>
+    <string name="andreig">
+        <a href="https://www.instagram.com/andregalluzzi_official/">INSTAGRAM</a>
+    </string>
+    <string name="andresc">
+        <a href="https://soundcloud.com/andre-galluzzi">SOUNDCLOUD</a>
+    </string>
+
+    <!--Dana Ruh-->
+
+    <string name="danafb">
+        <a href="https://www.facebook.com/danaruh/">FACEBOOK</a>
+    </string>
+    <string name="danaig">
+        <a href="https://www.instagram.com/danaruh/">INSTAGRAM</a>
+    </string>
+    <string name="danasc">
+        <a href="https://soundcloud.com/danaruh">SOUNDCLOUD</a>
+    </string>
+
+    <!--Dorian Paic-->
+
+    <string name="dorianfb">
+        <a href="https://www.facebook.com/Dorian-Paic-778791745523113/">FACEBOOK</a>
+    </string>
+
+    <!--Fabe-->
+
+    <string name="fabefb">
+        <a href="https://www.facebook.com/fabeagain/">FACEBOOK</a>
+    </string>
+    <string name="fabeig">
+        <a href="https://www.instagram.com/fabe86/">INSTAGRAM</a>
+    </string>
+    <string name="fabesc">
+        <a href="https://soundcloud.com/fabeagain">SOUNDCLOUD</a>
+    </string>
+
+    <!--Greogor Tresher-->
+
+    <string name="gregfb">
+        <a href="https://www.facebook.com/gregortresherofficial/">FACEBOOK</a>
+    </string>
+    <string name="gregig">
+        <a href="https://www.instagram.com/gregortresher/">INSTAGRAM</a>
+    </string>
+    <string name="gregsc">
+        <a href="https://soundcloud.com/gregortresher">SOUNDCLOUD</a>
+    </string>
+
+    <!--Ilario-->
+
+    <string name="ilariofb">
+        <a href="https://www.facebook.com/ILARIOALICANTEOFFICIAL/">FACEBOOK</a>
+    </string>
+    <string name="ilarioig">
+        <a href="https://www.instagram.com/ilario_alicante/">INSTAGRAM</a>
+    </string>
+    <string name="ilariosc">
+        <a href="https://soundcloud.com/ilario-alicante">SOUNDCLOUD</a>
+    </string>
+
+    <!--Sven-->
+
+    <string name="svenfb">
+        <a href="https://www.facebook.com/SvenVaethOfficial/">FACEBOOK</a>
+    </string>
+    <string name="svenig">
+        <a href="https://www.instagram.com/svenvaeth_official//">INSTAGRAM</a>
+    </string>
+    <string name="svendt">
+        <a href="https://www.cocoon.net/sven-vath/#events">DATES</a>
+    </string>
+
+
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
