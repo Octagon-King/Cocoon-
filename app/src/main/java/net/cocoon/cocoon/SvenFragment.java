@@ -7,6 +7,7 @@ import android.support.annotation.BinderThread;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,9 +24,11 @@ public class SvenFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-                return inflater.inflate(R.layout.fragment_sven, container, false);
+                View view = inflater.inflate(R.layout.fragment_sven, container, false);
 
-
+                 TextView textView = (TextView)view.findViewById(R.id.andrefb);
+                 textView.setMovementMethod(LinkMovementMethod.getInstance());
+            return view;
     }
 
     @Override

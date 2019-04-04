@@ -45,6 +45,8 @@
 
         <TextView
             android:id="@+id/andrefb"
+            android:clickable="true"
+            android:autoLink="all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/andrefb"
@@ -53,6 +55,8 @@
             android:textSize="22sp" />
 
         <TextView
+            android:clickable="true"
+            android:autoLink="all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/andreig"
@@ -61,6 +65,8 @@
             android:textSize="22sp" />
 
         <TextView
+            android:clickable="true"
+            android:autoLink="all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/andresc"
