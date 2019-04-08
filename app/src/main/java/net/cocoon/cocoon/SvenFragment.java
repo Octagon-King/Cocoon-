@@ -18,7 +18,6 @@ import android.widget.TextView;
 public class SvenFragment extends Fragment {
 
     private Button btnArtist;
-    private TextView TextView;
 
     @Nullable
     @Override
