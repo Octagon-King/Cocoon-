@@ -43,32 +43,31 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
             android:id="@+id/andrefb"
-            android:clickable="true"
-            android:autoLink="all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/andrefb"
+            android:background="@color/fui_transparent"
             android:layout_marginStart="123dp"
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
-            android:clickable="true"
-            android:autoLink="all"
+        <Button
+            android:id="@+id/andreig"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/fui_transparent"
             android:text="@string/andreig"
             android:layout_marginStart="117dp"
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
-            android:clickable="true"
-            android:autoLink="all"
+        <Button
+            android:id="@+id/andresc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/fui_transparent"
             android:text="@string/andresc"
             android:layout_marginStart="110dp"
             android:textColor="#ffffff"
@@ -102,25 +101,31 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/danafb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/fui_transparent"
             android:text="@string/danafb"
             android:layout_marginStart="123dp"
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/danaig"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/fui_transparent"
             android:text="@string/danaig"
             android:layout_marginStart="117dp"
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/danasc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/fui_transparent"
             android:text="@string/danasc"
             android:layout_marginStart="110dp"
             android:textColor="#ffffff"
@@ -153,7 +158,9 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/dorianfb"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dorianfb"
@@ -190,7 +197,9 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/fabefb"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fabefb"
@@ -198,7 +207,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/fabeig"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fabeig"
@@ -206,7 +217,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/fabesc"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fabesc"
@@ -242,7 +255,9 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/gregfb"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/gregfb"
@@ -250,7 +265,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/gregig"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/gregig"
@@ -258,7 +275,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/gregsc"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/gregsc"
@@ -293,7 +312,9 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/ilariofb"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ilariofb"
@@ -301,7 +322,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/ilarioig"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ilarioig"
@@ -309,7 +332,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/ilariosc"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ilariosc"
@@ -344,7 +369,9 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/svenfb"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/svenfb"
@@ -352,7 +379,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/svenig"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/svenig"
@@ -360,7 +389,9 @@
             android:textColor="#ffffff"
             android:textSize="22sp" />
 
-        <TextView
+        <Button
+            android:id="@+id/svendt"
+            android:background="@color/fui_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/svendt"
